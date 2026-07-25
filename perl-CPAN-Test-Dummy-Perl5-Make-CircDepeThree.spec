@@ -2,14 +2,14 @@
 %define upstream_version 1.00
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	9
+Version:	%{upstream_version}
+Release:	10
 
 Summary:	%{upstream_name} module for perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp.perl.org/pub/CPAN/modules/by-module/CPAN/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:		https://metacpan.org/dist/CPAN-Test-Dummy-Perl5-Make-CircDepeThree
+Source0:	https://cpan.metacpan.org/authors/id/A/AN/ANDK/CPAN-Test-Dummy-Perl5-Make-CircDepeThree-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
